@@ -9,7 +9,7 @@ function Weather() {
   const [unit, setUnit] = useState('metric');
   const [localTime, setLocalTime] = useState('');
 
-  const apiKey = import.meta.env.VITE_OPENWEATHER_API_KEY;
+  const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
 
   const getLocalTime = (timezoneOffsetInSeconds) => {
     const nowUTC = new Date(new Date().getTime() + new Date().getTimezoneOffset() * 60000);
