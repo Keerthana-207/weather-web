@@ -68,8 +68,6 @@ body {
 }
 
 .container, .top-container {
-  /* width: 90%;
-  max-width: 1200px; */
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
@@ -156,7 +154,6 @@ body {
   font-size: 1rem;
 }
 
-/* Temperature Section */
 .temp-header {
   width: 100%;
   padding: 2rem;
@@ -175,7 +172,6 @@ body {
   text-align: center;
 }
 
-/* Weather Cards */
 .weather-cards {
   display: flex;
   flex-wrap: wrap;
@@ -218,7 +214,6 @@ body {
   align-items: center;
 }
 
-/* Forecast Cards */
 .forecast-section {
   padding: 1rem;
   width: 100%;
@@ -275,10 +270,6 @@ body {
   }
 }
 
-/* ------------------------- */
-/* MEDIA QUERIES */
-/* ------------------------- */
-
 /* Mobile (≤ 600px) */
 @media screen and (max-width: 600px) {
   body {
@@ -322,7 +313,6 @@ body {
   }
 
   .top-container {
-    /* margin-top: 2rem; */
     padding: 1.5rem;
     align-items: center;
     text-align: center;
@@ -478,25 +468,7 @@ body {
   }
 }
 
-/* Large Desktop (≥ 1025px) */
-/* @media screen and (min-width: 1025px) {
-  .container {
-    margin-top: 2rem;
-  }
-  .weather-header,
-  .weather-cards,
-  .forecast-section,
-  .temp-header {
-    width: 100%;
-    margin: auto;
-  }
-
-  .forecast-card {
-    flex: 1 1 18%;
-  }
-} */
-
-/* Extra-Large Screens (≥ 1440px) */
+/* Large Screens (≥ 1440px) */
 @media screen and (min-width: 1440px) {
   .container, .top-container {
     max-width: 1400px;
