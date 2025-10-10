@@ -208,11 +208,19 @@ body {
   font-size: 2rem;
 }
 
+
+
 .weather-card .content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.weather-card .content h2 {
+  padding: 0 1em;
+}
+
+
 
 .forecast-section {
   padding: 1rem;
@@ -387,6 +395,9 @@ body {
   .weather-card h2{
     padding: 0 1em;
   }
+
+
+
   .forecast-section {
     text-align: center;
     padding: 1rem;
@@ -457,6 +468,8 @@ body {
     padding: 0 1em;
   }
 
+
+
   .forecast-card {
     flex: 1 1 30%;
     max-width: 180px;
@@ -478,6 +491,7 @@ body {
   .weather-card, .forecast-card {
     max-width: 240px;
   }
+
 
   .temp {
     font-size: 4rem;
